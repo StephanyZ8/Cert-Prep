@@ -79,3 +79,27 @@ h1 {
   background-color: #d5d5ef;
 }
 
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+
+.container > div{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.ss{
+  width: 20%;
+  background-color: #d5d5ef;
+  color: #7d728b;
+}
+.ee{
+  width: 90%;
+  background-color: #d5d5ef;
+  color: #7d728b;
+}
